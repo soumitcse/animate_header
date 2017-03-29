@@ -1,23 +1,23 @@
-# animate_header
+# Animate Header
 
-MIT License
+A simple js for animating header with cursor.
+Just update your code with the following changes mentioned
 
-Copyright (c) [2017] [soumitra sarkar]
+Add span element with a id = "element" and below add list 
+of span which contain your different header and set class as "elements"
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+For cursor add the below code with id "cursor-txt"
+if you dont want cursor just dont add the span
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+<div >
+  <span id="element"></span>
+  <span class="elements">YOUR TEXT 1</span> 
+  <span class="elements">YOUR TEXT 2</span>
+  ....
+  <span id="cursor-txt">|</span>
+</div>
+
+There can be mistakes in the code please share or fork it.
+
+Do Let Me know Your thoughts. 
